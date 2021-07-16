@@ -1,0 +1,28 @@
+{
+    "name": "lamkd/demo-pakage",
+    "description": "Creta demo package",
+    "type": "library",
+    "require": {
+        "php": "^7.2.5"
+    },
+    "license": "MIT",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Lamkd\\LaravelMakeRepository\\RepositoryServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Lamkd\\LaravelMakeRepository\\": "src/"
+        },
+        "classmap": ["src/"]
+    },
+    "authors": [
+        {
+            "name": "Kim Lam",
+            "email": "lamkd@miagi-so.net"
+        }
+    ]
+}
