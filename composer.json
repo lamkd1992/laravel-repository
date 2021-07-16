@@ -1,6 +1,6 @@
 {
-    "name": "lamkd/demo-pakage",
-    "description": "Creta demo package",
+    "name": "lamkd/laravel-repository",
+    "description": "Create laravel repository package",
     "type": "library",
     "require": {
         "php": "^7.2.5"
